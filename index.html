@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    
+    
+</head>
+<body>
+    
+    
+        <header> <!--Bootstrap de barra de nav-->
+            <section class="barradenav">
+            <nav class="navbar navbar-expand-lg navbar-light bg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-between align-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html" class="textitos">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="./pages/menu.html" class="textitos">Menu</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="textitos">
+                           Secciones
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./pages/cupones.html">Cupones</a></li>
+                          <li><a class="dropdown-item" href="./pages/pago.html">Pago</a></li>
+                         
+                          <li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
+                          <li><a class="dropdown-item" href="./pages/api.html">API</a></li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                    <div class="buscador "></div>
+                    <form class="d-flex">
+                      <input class="form-control me-2 " type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-light " type="submit">Buscar</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </section>
+        </header>
+            
+        <main> <!--Carousel-->
+            <section class="burgerkingxd">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/HomeBanner_STACKERXL-27.jpg" class="burgerking" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-burger-king-argentina//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/PROGRAMMATIC-_-1280x920px.jpg" class="burgerking" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-burger-king-argentina//home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/HomeBanner_Chimiburga.jpg" class="burgerking" alt="...">
+                  </div>
+                </div>
+            <div class="botonescarousel">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+            </section>
+            
+            <h1  class="cupones-titulo">Cupones de la casa</h1><!--Titulo principal-->
+            <section class="grid-cupones"> <!--Seccion de cupones-->
+                
+                <div class="grid-item1">
+                    <img src="./img/combo1.jpeg" alt="">
+                    <a href="./pages/pago.html">Comprar</a>
+                </div>
+                <div class="grid-item1">
+                    <img src="./img/combo2.jpeg" alt="">
+                    <a href="./pages/pago.html">Comprar</a>
+                </div>
+                <div class="grid-item1">
+                    <img src="./img/combo3.png" alt="">
+                    <a href="./pages/pago.html">Comprar</a>
+                </div>
+                        
+            </section>
+    
+            <div class="boton-fixed"> <!--Boton de whatsapp fijo en la pagina-->
+                <a href="http://web.whatsapp.com" target="_blank"><img src="./img/whatsapp.png" alt=""></a>
+            </div>
+    
+                <hr>
+                
+                
+            <section>
+                <div>
+                    <div >Preparacion</div> <!--Video de youtube-->
+                        
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/A1xoahQGMgk" title="Preparacion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videoymapa"> Preparacion</iframe>
+                        
+                    <div >Ubicacion</div><!--Mapa de googlemaps-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.606632711747!2d-57.55775728511339!3d-38.00963485304879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dea050e032e3%3A0x4302f74a37d8df02!2sViejo%20Dave!5e0!3m2!1ses-419!2sar!4v1656572705184!5m2!1ses-419!2sar" width="400" height="200" hspace="15" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="videoymapa"></iframe>
+                    <hr>
+                </div>
+                    
+            </section>
+        </main>
+        <footer>
+            <img src="./img/logo.png" alt="logo"> <!--Logo-->
+            <section>
+                <div class="informacion"><!--Informacion-->
+                    <h2>Información</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, suscipit?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Lorem, ipsum.</p>
+                    <hr>
+    
+                </div><!--Redes sociales-->
+                <div class="redes">
+                    <a href="https://www.facebook.com" target="_blank"><img src="./img/facebook.png" alt="facebook" width="300" height="250" class="imagenesredes"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="./img/instagram.png" alt="instagram" width="300" height="250" class="imagenesredes"></a>
+                    <a href="https://web.whatsapp.com" target="_blank"><img src="./img/whatsapp.png" alt="whatsapp" width="300" height="250" class="imagenesredes"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="./img/twitter.png" alt="twitter" width="300" height="250" class="imagenesredes"></a>
+    
+                </div>
+    
+    
+                    
+            </section>
+    
+    
+    
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
